@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #FFFFFF;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+  }
+  .navbar a:hover{
+    color: green;
+  }
+  .ul{
+    margin-top: 80px;
+    margin-right: 100px;
+    padding: 30px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 10px;
+  }  
+  .logo{
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 80px;
+  }
+ .nav1 {
+    margin-top: 40px;
+ }
+ .li1{
+    font-size: 20px;
+    font-weight: 400;
+ }
+.a1{
+    margin-left: 100px;
+}
+.a2{
+    margin-left: 130px;
+} 
+.a3{
+    margin-left: 130px;
+}
+.a4{
+    margin-left: 130px;
+}
+.c-css-slider {
+  position: relative;
+  margin-top: -25px;
+}
+
+/* Slides inputs
+========================================================================== */
+
+.c-css-slider__input {
+  display: none;
+}
+
+/* Slides wrapper
+========================================================================== */
+
+.c-css-slider__slides-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  width: 100%;
+}
+
+/* Slides
+========================================================================== */
+
+.c-css-slider__slides-wrapper .c-css-slider__slides {
+  display: flex;
+  padding: 0;
+
+  width: 200%;
+
+  line-height: 0;
+
+  transition: all 800ms cubic-bezier(.770,.000,.175,1.000);
+}
+
+#slide1:checked ~ .c-css-slider__slides-wrapper .c-css-slider__slides {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .c-css-slider__slides-wrapper .c-css-slider__slides {
+  margin-left: -100%;
+}
+
+/* Slide
+========================================================================== */
+
+.c-css-slider__slide {
+  width: calc(100% / 2) calc(100% / 3) for three slides
+}
+
+.c-css-slider__slide img {
+  display: block;
+
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.div1{
+  display: flex;
+}
+.img1{
+  width: 600px;
+  margin-left: 20px;
+}
+.h1{
+  color: #00557A;
+  font-size: 50px;
+  margin-left: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  position: relative;
+  width: 550px;
+  height: 350px;
+  background-image: url("./Islamabad.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 80px;
+}
+.div2{
+  display: flex;
+}
+.container1 {
+  position: relative;
+  width: 550px;
+  height: 350px;
+  background-image: url("./Istanbul.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 30px;
+}
+.container2{
+  position: relative;
+  width: 550px;
+  height: 350px;
+  background-image: url("./Lahore.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 80px;
+}
+.container3{
+  position: relative;
+  width: 550px;
+  height: 350px;
+  background-image: url("./Faisalabad_deal.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 30px;
+}
+.h2{
+  color: white;
+  font-size: 65px;
+  margin-left: 35px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h3{
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: -20px;
+  margin-left: 35px;
+}
+.div3{
+  position: relative;
+  width: 180px;
+  height: 50px;
+  margin-top: 110px;
+  background-color: #0574a3;
+}
+.h4{
+  position: absolute;
+color: white;
+margin-top: 10px;
+margin-left: 20px;
+}
+.div4{
+  margin-top: 30px;
+  display: flex;
+}
+.All__Deals{
+  position: relative;
+  width: 90%;
+  height: 150px;
+  margin-left: 80px;
+  background-color: #B7D8ED;
+}
+.Select__deals{
+  position: absolute;
+  width: 260px;
+  height: 90px;
+  margin-left: 50px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+}
+.h5{
+  color: #727272;
+  font-size: 19px;
+  margin-left: 30px;
+}
+.span{
+  color: #727272;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.Departure{
+  position: absolute;
+  width: 260px;
+  height: 90px;
+  margin-left: 340px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+}
+.Return{
+  position: absolute;
+  width: 260px;
+  height: 90px;
+  margin-left: 630px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+}
+.button{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin-left: 920px;
+  margin-top: 25px;
+  color: white;
+  text-align: center;
+  background-color: #1D592B ;
+}
+.span1{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.div7{
+  display: flex;
+}
+.awardImg{
+  width: 370px;
+  margin-left: 80px;
+}
+.baggage{
+  width: 370px;
+  margin-left: 10px;
+}
+.upgrade{
+  width: 370px;
+  margin-left: 10px;
+}
+.Miles{
+  color: #69B342;
+  margin-left: 80px;
+  margin-top: -3px;
+  font-size: 30px;
+}
+.explore{
+  margin-top: -20px;
+  margin-left: 80px;
+  font-size: 20px;
+  color: rgb(91, 91, 242);
+  cursor: pointer;
+}
+.explore:hover{
+  color: #1D592B;
+}
+.baggage1{
+  color: #69B342;
+  margin-left: 10px;
+  margin-top: -3px;
+}
+.explore1{
+  margin-top: -20px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(91, 91, 242);
+  cursor: pointer;
+}
+.explore1:hover{
+  color: #1D592B;
+}
+.Upgrade1{
+  color: #69B342;
+  margin-left: 10px;
+  margin-top: -3px;
+}
+.explore2{
+  margin-top: -20px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(91, 91, 242);
+  cursor: pointer;
+}
+.explore2:hover{
+  color: #1D592B;
+}
+.Facilities{
+  display: flex;
+  display: block;
+  margin-left: 80px;
+  font-size: 19px;
+  color: #70709E;
+}
+.h7{
+  margin-top: 80px;
+  color: #69B342;
+  margin-left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
